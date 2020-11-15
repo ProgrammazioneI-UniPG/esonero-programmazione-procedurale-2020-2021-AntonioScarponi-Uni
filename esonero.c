@@ -11,11 +11,11 @@ int main(void)
   int a;
   char c[128];
   char m_cifr[128];
-  printf("Inserisci manualmente una stinga M di testo lunga al massimo 128 caratteri\n");
+  printf("Inserisci manualmente una stinga M di testo lunga al massimo 128 caratteri che verrà cifrata\n");
   fgets (m, 128, stdin); /*controllo che la lunghezza massima della stringa non superi i 128 caratteri*/
   printf("La stringa inserita è %s\n", m);
   int opzione;
-  printf("Scegli come vuoi agire digitando 1 oppure 2\n");
+  printf("Scegli come vuoi cifrare la stringa digitando 1 oppure 2\n");
   scanf("%d",&opzione);
   getchar();//pulisco il buffer
   if (opzione==1)
